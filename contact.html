@@ -76,84 +76,112 @@
 
   <main id="main">
 
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
 
       <div class="container" data-aos="fade-up">
 
-        <header class="section-header" style="margin-top: 50px;">
-          <p>Services Provided by Us</p>
+        <header class="section-header" style="margin-top: 100px;">
+          <p>Contact Us</p>
         </header>
 
         <div class="row gy-4">
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-box blue">
-              <i class="ri-discuss-line icon"></i>
-              <h3>App Development</h3>
-              <p>Android or IOS App Development</p>
-              <!-- <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> -->
+          <div class="col-lg-6">
+
+            <div class="row gy-4">
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-geo-alt"></i>
+                  <h3>Address</h3>
+                  <p>Vaishali Nagar<br>Jaipur, 302022, India</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-telephone"></i>
+                  <h3>Call Us</h3>
+                  <p>+91 9529741079</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-envelope"></i>
+                  <h3>Email Us</h3>
+                  <p>magnisys@outlook.com</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-clock"></i>
+                  <h3>Open Hours</h3>
+                  <p>Monday - Saturday<br>9:00AM - 06:00PM</p>
+                </div>
+              </div>
             </div>
+
           </div>
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-box orange">
-              <i class="ri-discuss-line icon"></i>
-              <h3>Web Development</h3>
-              <p>Static or Dyanamic Web Applications Development</p>
-              <!-- <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> -->
-            </div>
-          </div>
+          <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" class="php-email-form">
+              <div class="row gy-4">
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-box pink">
-              <i class="ri-discuss-line icon"></i>
-              <h3>Cloud & DevOps</h3>
-              <p>Microsoft Azure, Amazon AWS and other Cloud Services.
-                We also provide DevOps Services.</p>
-              <!-- <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> -->
-            </div>
-          </div>
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                </div>
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-box green">
-              <i class="ri-discuss-line icon"></i>
-              <h3>Digital Marketing</h3>
-              <p>Our team of experts provides you with quality results on a low budget. We have expertise in all aspects of digital marketing.</p>
-              <!-- <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> -->
-            </div>
-          </div>
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                </div>
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-box red">
-              <i class="ri-discuss-line icon"></i>
-              <h3>Production Support</h3>
-              <p>Enhancement, Maintainance, and Support for existing Mobile or Web Applications</p>
-              <!-- <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> -->
-            </div>
-          </div>
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                </div>
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
-            <div class="service-box purple">
-              <i class="ri-discuss-line icon"></i>
-              <h3>Design</h3>
-              <p>UI/UX and Graphics Design</p>
-              <!-- <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> -->
-            </div>
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+
           </div>
 
         </div>
-        <div class="text-center" style="margin-top: 2rem;" data-aos="fade-up" data-aos-delay="0">
-          <a class="btn btn-primary me-2" href="contact.html" target="_blank" role="button">Contact Us <i class="bi bi-arrow-right"></i></a>
-        </div>
+
       </div>
 
-    </section><!-- End Services Section -->
+    </section>
+    <!-- End Contact Section -->
 
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
+
+    <!-- <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-12 text-center">
+            <h4>Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+          </div>
+          <div class="col-lg-6">
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div> -->
 
     <div class="footer-top">
       <div class="container">
